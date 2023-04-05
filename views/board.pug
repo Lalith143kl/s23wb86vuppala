@@ -5,7 +5,6 @@ block content
   p rows is #{query.rows} and cols is #{query.cols}
   - let rows= Number(query.rows)
   - let cols= Number(query.cols)
-  p rows is #{rows} and cols is #{cols}
   - if(!(Number.isInteger(rows)) || !(Number.isInteger(cols))) {
     p Passed arguments are not integers
   - }
